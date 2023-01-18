@@ -1,0 +1,58 @@
+.container {
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+p {
+  line-height: 1.6;
+  font-family: 'Roboto Slab', serif;
+  margin-right: 30%;
+}
+.box {
+  text-align: left;
+}
+.space {
+  height: 60px;
+}
+h3 {
+  font-family: 'Rowdies', cursive;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  color: #0081C9;
+}
+h1 {
+  padding-top: 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 3.5rem;
+  color: #86E5FF;
+}
+.rac-int-img {
+  width: 210px;
+  float: right;
+  padding: 20px;
+}
+.rac-cc-img {
+  width: 250px;
+  float: right;
+}
+.underlined {
+  position: relative;
+  margin-right: 1rem;
+}
+.underlined:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px cyan;
+  border-color: cyan transparent transparent transparent;
+  border-radius: 30%;
+}
+.card {
+  display: flex;
+  background-color: white;
+  margin: 10px;
+}
